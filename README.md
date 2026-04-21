@@ -4,7 +4,7 @@ Maquetación profesional para la tienda de cosméticos **Zafiro Color**. Este pr
 
 ## 🚀 Demo
 
-Puedes ver el sitio en vivo aquí: [👉 Enlace de GitHub Pages][https://github.com/Smiledxd/ocean]
+Puedes ver el sitio en vivo aquí: 👉 [Ver](https://smiledxd.github.io/ocean/)
 
 ## 🛠️ Tecnologías y Herramientas
 
