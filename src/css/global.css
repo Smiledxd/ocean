@@ -1,0 +1,62 @@
+/*Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main style */
+html,
+body {
+  font-family: "Lucida Sans", "sans-serif";
+}
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+p {
+  font-size: 20px;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+a {
+  text-decoration: none;
+}
+
+/* Utility classes*/
+.container {
+  margin: auto;
+  max-width: 1600px;
+  overflow: auto;
+  padding: 15px 25px;
+}
+.small {
+  color: coral;
+}
+.display-1 {
+  color: white;
+  font-size: 60px;
+}
+strong {
+  color: coral;
+}
+.btn,
+.btn-up-catalog {
+  display: inline;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: white;
+  border: 2px solid black;
+}
+.btn {
+  background-color: coral;
+}
+.btn-up-catalog {
+  background-color: #0f52ba;
+}
