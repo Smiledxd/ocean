@@ -60,3 +60,39 @@ strong {
 .btn-up-catalog {
   background-color: #0f52ba;
 }
+
+/* Mainheader */
+#mainheader {
+  background: url(../assets/background/background-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-attachment: fixed;
+}
+/* Navbar */
+#navbar {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: black;
+}
+#navbar a {
+  color: #000;
+  font-size: 26px;
+}
+#navbar .logo {
+  float: left;
+  padding-top: 10px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  display: block;
+}

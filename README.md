@@ -10,7 +10,7 @@ Puedes ver el sitio en vivo aquí: 👉 [Ver](https://smiledxd.github.io/ocean/)
 
 - **HTML5 & CSS3**: Estructura y diseño responsivo.
 - **[Servor](https://github.com/lukejacksonn/servor)**: Servidor local de desarrollo rápido.
-- **[Oxlint](https://oxc-project.github.io/)**: Linter para mantener la calidad del código.
+- **[Oxlint](https://oxc.rs/docs/guide/usage/linter.html)**: Linter para mantener la calidad del código.
 - **[PNPM](https://pnpm.io/)**: Gestor de paquetes eficiente.
 
 ## 📦 Instalación y Configuración
