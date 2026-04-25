@@ -34,11 +34,13 @@ a {
   padding: 15px 25px;
 }
 .small {
-  color: coral;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bolder;
 }
 .display-1 {
   color: white;
-  font-size: 60px;
+  font-size: 80px;
 }
 strong {
   color: coral;
@@ -95,4 +97,56 @@ strong {
   text-align: center;
   font-weight: 700;
   display: block;
+}
+/*showcase*/
+#showcase {
+  padding-top: 100px;
+  text-align: center;
+}
+.showcase-catalog {
+  padding: 15px;
+}
+/*tips*/
+#tips {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+#tips h2 {
+  text-align: center;
+  padding-bottom: 35px;
+}
+.tips-image-1 {
+  float: left;
+  width: 50%;
+  padding: 50px 50px 50px 0px;
+}
+.tips-image-1 img {
+  width: 100%;
+  border-top-right-radius: 20%;
+}
+.tips-text-1 {
+  float: right;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 25px;
+  width: 50%;
+}
+.tips-image-2 {
+  float: right;
+  width: 50%;
+  padding: 50px 50px 50px 0px;
+}
+.tips-image-2 img {
+  width: 100%;
+  border-top-left-radius: 20%;
+}
+.tips-text-2 {
+  float: left;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-size: 25px;
+  width: 50%;
+}
+.tips-row-2 {
+  padding-top: 700px;
 }
