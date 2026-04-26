@@ -38,12 +38,13 @@ a {
   font-size: 25px;
   font-weight: bolder;
 }
-.display-1,
-.display-2 {
-  color: white;
-}
 .display-1 {
+  color: white;
   font-size: 80px;
+}
+.display-2 {
+  font-size: 25px;
+  color: white;
 }
 strong {
   color: coral;
@@ -68,6 +69,7 @@ strong {
   background-size: cover;
   background-position: top;
   height: 100%;
+  padding-bottom: 25px;
 }
 /* Navbar */
 #navbar {
@@ -123,10 +125,10 @@ strong {
 }
 .tips-text-1 {
   float: right;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding: 150px 50px 150px 0;
   font-size: 25px;
   width: 50%;
+  text-align: justify;
 }
 .tips-image-2 {
   float: right;
@@ -139,10 +141,10 @@ strong {
 }
 .tips-text-2 {
   float: left;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding: 150px 50px 150px 0;
   font-size: 25px;
   width: 50%;
+  text-align: justify;
 }
 .tips-row-2 {
   padding-top: 700px;
@@ -155,6 +157,7 @@ strong {
   background-position: center;
   height: 100%;
   background-attachment: fixed;
+  padding: 20px 0;
 }
 .section-catalog-btn {
   float: right;
@@ -163,4 +166,38 @@ strong {
 .catalog-text {
   float: left;
   width: 70%;
+}
+/*About us*/
+#about-us .container {
+  padding: 100px 25px 200px 25px;
+}
+#about-us h2 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+#about-us p {
+  text-align: justify;
+  padding: 20px 350px;
+  line-height: 1.7;
+}
+/*contact*/
+#contact .container {
+  justify-content: center; /*align items in center*/
+  align-items: center; /*align items in vertical*/
+  display: flex; /*ignore the containers*/
+  gap: 10px;
+}
+#contact img {
+  width: 50px;
+  display: block;
+}
+#contact p {
+  margin: 0;
+  font-weight: bolder;
+  color: white;
+}
+#contact {
+  background: url(../assets/background/background-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
